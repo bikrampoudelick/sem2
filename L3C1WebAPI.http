@@ -1,0 +1,6 @@
+@L3C1WebAPI_HostAddress = http://localhost:5080
+
+GET {{L3C1WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
