@@ -1,4 +1,7 @@
+using L3C1WebAPI.Data;
 using L3C1WebAPI.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<Student>(
     builder.Configuration.GetSection("Student")
     );
+
+
+builder.Services.AddDbContext<AppDbContext>(
+   (options) => { options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres")); }
+);
 
 var app = builder.Build();
 
