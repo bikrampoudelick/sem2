@@ -13,6 +13,6 @@ namespace L3C1WebAPI.Data.Entities
 		public int Credits { get; set; }
 
 		public int CourseId { get; set; }
-		public Course Course { get; set; } //Navigation Property
+		public Course? Course { get; set; } //Navigation Property
 	}
 }

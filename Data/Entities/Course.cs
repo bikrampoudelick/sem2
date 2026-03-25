@@ -13,6 +13,6 @@ namespace L3C1WebAPI.Data.Entities
 
 		public int DurationYears { get; set; }
 
-		public List<Module> Module { get; set; } //Navigation Property
+		public List<Module> Modules { get; set; } = [];  //Navigation Property
 	}
 }

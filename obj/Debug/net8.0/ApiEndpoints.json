@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "L3C1WebAPI.Controllers.CoursesController",
+    "Method": "AddCourse",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "L3C1WebAPI.Data.Entities.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L3C1WebAPI.Controllers.CoursesController",
+    "Method": "GetAllCourses",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L3C1WebAPI.Controllers.CoursesController",
+    "Method": "GetAllCoursesWithModules",
+    "RelativePath": "api/Courses/modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "L3C1WebAPI.Controllers.StudentsController",
     "Method": "Add",
     "RelativePath": "Students/add",
