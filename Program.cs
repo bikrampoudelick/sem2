@@ -1,5 +1,7 @@
 using L3C1WebAPI.Data;
 using L3C1WebAPI.Models;
+using L3C1WebAPI.Services.Implementations;
+using L3C1WebAPI.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -19,6 +21,8 @@ builder.Services.Configure<Student>(
 builder.Services.AddDbContext<AppDbContext>(
    (options) => { options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres")); }
 );
+
+builder.Services.AddScoped<IModuleService, ModuleService>();
 
 var app = builder.Build();
 

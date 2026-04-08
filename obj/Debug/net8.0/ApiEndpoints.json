@@ -36,6 +36,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "L3C1WebAPI.Controllers.ModulesController",
+    "Method": "AddModule",
+    "RelativePath": "api/Modules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moduleDto",
+        "Type": "L3C1WebAPI.Dtos.Request.ModuleCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "L3C1WebAPI.Controllers.StudentsController",
     "Method": "Add",
     "RelativePath": "Students/add",

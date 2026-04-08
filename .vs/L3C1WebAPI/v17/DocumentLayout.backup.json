@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\Dot net\\L3C1WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\data\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:data\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\services\\implementations\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:services\\implementations\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\data\\entities\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:data\\entities\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\services\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:services\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CoursesController.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Controllers\\CoursesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Controllers\\CoursesController.cs",
-              "RelativeToolTip": "Controllers\\CoursesController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T03:57:06.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Module.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Data\\Entities\\Module.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Module.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Data\\Entities\\Module.cs",
-              "RelativeToolTip": "Data\\Entities\\Module.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T04:45:55.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T04:15:21.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-18T04:11:01.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T04:01:16.496Z",
+              "WhenOpened": "2026-04-01T04:42:42.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Data\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Course.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Data\\Entities\\Course.cs",
-              "RelativeToolTip": "Data\\Entities\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Title": "ModuleService.cs",
+              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\ModuleService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ModuleService.cs",
+              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\ModuleService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ModuleService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:47:56.468Z",
+              "WhenOpened": "2026-04-01T04:16:29.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IModuleService.cs",
+              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Services\\Interfaces\\IModuleService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IModuleService.cs",
+              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Services\\Interfaces\\IModuleService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IModuleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T04:10:38.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModulesController.cs",
+              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Controllers\\ModulesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ModulesController.cs",
+              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Controllers\\ModulesController.cs",
+              "RelativeToolTip": "Controllers\\ModulesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T03:42:07.912Z",
               "EditorCaption": ""
             }
           ]
