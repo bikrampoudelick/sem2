@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Dot net\\L3C1WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\services\\implementations\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:services\\implementations\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:controllers\\modulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\services\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:services\\interfaces\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|d:\\dot net\\l3c1webapi\\dtos\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258CFD6C-744F-46A9-9CE0-3F21BF9210E1}|L3C1WebAPI.csproj|solutionrelative:dtos\\response\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Dtos\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Dtos\\ApiResponse.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Dtos\\ApiResponse.cs",
-              "RelativeToolTip": "Dtos\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Dtos\\Response\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "Dtos\\Response\\RegisterResponse.cs",
+              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Dtos\\Response\\RegisterResponse.cs",
+              "RelativeToolTip": "Dtos\\Response\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T05:02:40.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:42:42.992Z",
+              "WhenOpened": "2026-04-29T04:07:11.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModuleService.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\ModuleService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\ModuleService.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\ModuleService.cs",
-              "RelativeToolTip": "Services\\Implementations\\ModuleService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:16:29.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IModuleService.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Services\\Interfaces\\IModuleService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IModuleService.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Services\\Interfaces\\IModuleService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IModuleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:10:38.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModulesController.cs",
-              "DocumentMoniker": "D:\\Dot net\\L3C1WebAPI\\Controllers\\ModulesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ModulesController.cs",
-              "ToolTip": "D:\\Dot net\\L3C1WebAPI\\Controllers\\ModulesController.cs",
-              "RelativeToolTip": "Controllers\\ModulesController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T03:42:07.912Z",
+              "WhenOpened": "2026-04-29T03:51:06.085Z",
               "EditorCaption": ""
             }
           ]

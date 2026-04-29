@@ -3,6 +3,7 @@ using System;
 using L3C1WebAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace L3C1WebAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260408042241_IdentityTablesCreation")]
+    partial class IdentityTablesCreation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,29 +170,6 @@ namespace L3C1WebAPI.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("Roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "3489eee2-e301-47a4-93d1-632894187ab7",
-                            ConcurrencyStamp = "923da883-139e-4c82-8d16-50e119de0c80",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "92667dc2-bc30-4cbb-a666-4ffb50f6238e",
-                            ConcurrencyStamp = "b56e9c34-6560-4ade-8b9b-5265e7665cc9",
-                            Name = "Instructor",
-                            NormalizedName = "INSTRUCTOR"
-                        },
-                        new
-                        {
-                            Id = "7e1d6df1-aff7-4f9f-b805-123ff6bd09fe",
-                            ConcurrencyStamp = "50e710b6-3d47-4cc5-8b3c-036f1172ebe3",
-                            Name = "Student",
-                            NormalizedName = "STUDENT"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
