@@ -1,8 +1,11 @@
-﻿using L3C1WebAPI.Data.Entities;
+﻿using L3C1WebAPI.Data;
+using L3C1WebAPI.Data.Entities;
 using L3C1WebAPI.Dtos.Request;
 using L3C1WebAPI.Dtos.Response;
 using L3C1WebAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography.Xml;
 using System.Threading.Tasks;
 
 namespace L3C1WebAPI.Services.Implementations
@@ -10,12 +13,14 @@ namespace L3C1WebAPI.Services.Implementations
 	public class AuthService(
 		SignInManager<User> signInManager,
 		UserManager<User> userManager,
-		JwtService jwtService
+		JwtService jwtService,
+		AppDbContext dbContext
 		) : IAuthService
 	{
 
 		public async Task<RegisterResponse> RegisterStudent(RegisterStudentDto registerDto)
 		{
+			var transaction = await dbContext.Database.BeginTransactionAsync();
 			var user = new User
 			{
 				UserName = registerDto.Email.Split("@").First(),
@@ -33,7 +38,25 @@ namespace L3C1WebAPI.Services.Implementations
 					Message = registerResult.ToString()
 				};
 			}
-			return null;
+
+			var roleResult = await userManager.AddToRoleAsync(user, "Student");
+			if (!roleResult.Succeeded)
+			{
+				await transaction.RollbackAsync();
+				return new RegisterResponse
+				{
+					Success = false,
+					Message = roleResult.ToString()
+				};
+			}
+
+			await transaction.CommitAsync();
+			return new RegisterResponse
+			{
+				Success = true,
+				Message = "Successfully Registered"
+			};
+
 		}
 
 		public async Task<LoginResponse> LoginAsync(LoginDto loginDto)
