@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("L3C1WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c51223c8e6393e95fe787120c251c2d486b198ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75ccbd4e8419308880fb9a1599253bd8593bf3c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("L3C1WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("L3C1WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

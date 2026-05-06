@@ -74,12 +74,14 @@ builder.Services.AddIdentity<User, IdentityRole>()
 builder.Services.AddCors(options =>
 {
     // Development - open to all origins
-    options.AddPolicy("Production", policy =>
+    options.AddPolicy("all", policy =>
     {
         policy.AllowAnyOrigin()
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
+
+   
 });
 
 var app = builder.Build();
@@ -87,14 +89,13 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    //app.UseSwagger();
-    //app.UseSwaggerUI();
+    
 }
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors("Production");
+app.UseCors("all");
 
 app.UseHttpsRedirection();
 
